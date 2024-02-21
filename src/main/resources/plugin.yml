@@ -1,0 +1,13 @@
+name: Whitelist-Lobby-Paper
+version: '${project.version}'
+main: de.teddy.whitelistlobby.Main
+api-version: '1.20'
+
+depend:
+  - TeddyLibrary
+
+commands:
+  redeem:
+    description: Redeem a code
+    usage: /redeem <code>
+    permission: whitelistlobby.redeem
